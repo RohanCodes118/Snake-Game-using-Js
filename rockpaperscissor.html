@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="rockpaperscissor.css">
+    <link rel="stylesheet" href="newstyle.css">
+</head>
+<body>
+    <h1>Rock-Paper-Scissor</h1>
+
+    <div class="choices">
+    <button onclick="playgame(`rock`)">🥊</button>
+    <button onclick="playgame(`paper`)">📃</button>
+    <button onclick="playgame(`scissors`)">✂</button>
+    </div>
+
+    <div id="playerdisplay" class="game">Player:</div>
+    <div id="computerdisplay" class="game">Computer:</div>
+    <div id="resultdisplay" class="game"></div>
+
+    <div class="scoredisplay">Player Score:
+        <span id="playerscoredisplay">0</span>
+    </div>
+
+    <div class="scoredisplay">Computer Score:
+        <span id="computerscoredisplay">0</span>
+    </div>
+
+ <script src="rockpaperscissor.js"></script> 
+ 
+ <div class="pagination">
+    <a href="rockpaperscissor.html" title=" Rock-Paper-Scissor " class="active">1</a>
+    <a href="tic tac toe.html" title="Tic Tac Toe">2</a>
+    <a href="snake.html" title="Snake" >3</a>
+    <a href="game.html" title="Simple Guessing Game">4</a>
+ </div>
+</body>
+</html>
