@@ -1,0 +1,37 @@
+#gamecontainer{
+    text-align: center;
+    font-size: 50px;
+}
+#gameboard{
+    border: 5px solid;
+    margin-top: 60px;
+}
+#scoretext{
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif,cursive;
+}
+#resetbtn{
+    width: 100px;
+    height: 50px;
+    border: 2px solid;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#resetbtn:hover{
+    background-color: hsl(241, 81%, 67%);
+}
+
+.pagination a{
+    color: black;
+    text-decoration:none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: rgb(24, 227, 51);
+    font-weight: bold;
+}
+.pagination a:hover:not(.active){
+    background-color: rgb(149, 149, 149);
+    border-radius: 5px;
+}
